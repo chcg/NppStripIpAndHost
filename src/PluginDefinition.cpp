@@ -171,7 +171,7 @@ void UndoLastStrip() {
     }
 }
 
-INT_PTR CALLBACK SettingsDlgProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam) {
+INT_PTR CALLBACK SettingsDlgProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM /*lParam*/) {
     switch (uMsg) {
     case WM_INITDIALOG: {
         // Load IPv4 (Your existing code)
